@@ -4,7 +4,7 @@ surname: Muhl-Richardson
 position: 
 pronouns: 
 address: 
-phone: 
+phone: (+44) 07926295611
 www:
 #profilepic: "./data/profile.jpg"
 email: a.muhl.richardson@gmail.com
@@ -12,7 +12,7 @@ email: a.muhl.richardson@gmail.com
 github: alexmuhl-r
 linkedin: alex-muhl-richardson
 #googlescholar: scholar.google.com/citations?user=YXa0igwAAAAJ
-aboutme: I am a behavioural scientist and psychologist interested in new approaches to solving real-world problems. I have interests in human performance optimisation and individual differences in behaviour. I have extensive experience leading and managing research, including developing data collection methodologies, working with large datasets, data analysis, developing actionable insights and report writing.
+aboutme: I am a behavioural scientist and psychologist who uses data to solve real-world problems. I have interests in human performance optimisation, individual differences in behaviour and sustainable behaviour change. I have extensive experience leading and managing programs of research and experimentation, including developing data collection methodologies, working with large datasets, statistics and data analysis, and developing and communicating actionable insights.
 #headcolor: 015985
 date:
 output:
@@ -93,9 +93,9 @@ bibliography_entries(publications) %>%
 ```
 \vspace{3mm}
 
-# Selected Presentations
+<!-- # Selected Presentations -->
 
-```{r PRESENTATIONS}
-bibliography_entries(presentations) %>%
-  arrange(desc(issued),desc(author$family))
-```
+<!-- ```{r PRESENTATIONS} -->
+<!-- bibliography_entries(presentations) %>% -->
+<!--   arrange(desc(issued),desc(author$family)) -->
+<!-- ``` -->
